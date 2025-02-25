@@ -3,5 +3,8 @@ export class Main {
     return `${text}`;
   }
 }
-export const main = (text: string): string => new Main().main(text);
+export const main = (text: string): string =>
+  new Main().main(
+    text,
+  );
 if (import.meta.main) console.log(main("Texto"));
