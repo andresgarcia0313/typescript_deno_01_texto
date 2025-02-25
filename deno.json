@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "esnext",
+      "deno.ns"
+    ],
+    "strict": true
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2
+  },
+  "importMap": "./import_map.json",
+  "tasks": {
+    "start": "deno run --allow-net src/main.ts",
+    "test": "deno test"
+  }
+}
