@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "kisstkondoros.vscode-codemetrics",
+        "intellsmi.comment-translate",
+        "denoland.vscode-deno",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint",
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "tal7aouy.indent-colorizer",
+        "oderwat.indent-rainbow",
+        "visualstudioexptteam.vscodeintellicode",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "pkief.material-icon-theme",
+        "ibm.output-colorizer",
+        "christian-kohler.path-intellisense",
+        "johnpapa.vscode-peacock",
+        "alefragnani.project-manager",
+        "sonarsource.sonarlint-vscode",
+        "ms-ceintl.vscode-language-pack-es",
+        "tomoki1207.pdf"
+    ]
+}
