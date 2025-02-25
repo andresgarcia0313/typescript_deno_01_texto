@@ -1,11 +1,7 @@
-export class TextProcessor {
-    process(text: string): string {
-      return `salida esperada: ${text}`;
-    }
+export class Main {
+  main(text: string): string {
+    return `${text}`;
   }
-  
-  export const procesarTexto = (entrada: string): string =>
-    new TextProcessor().process(entrada);
-  
-  if (import.meta.main) console.log(procesarTexto("Hola Mundo"));
-  
+}
+export const main = (entrada: string): string => new Main().main(entrada);
+if (import.meta.main) console.log(main("Texto"));
